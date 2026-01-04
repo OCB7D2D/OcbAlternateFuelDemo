@@ -1,0 +1,10 @@
+<configs>
+
+  <!-- example to make the motorcycle driveable by wood -->
+  <!--
+  <append xpath="/items/item[@name='vehicleMotorcyclePlaceable']">
+    <property name="fuelItem" value="resourceWood" />
+  </append>
+  -->
+  
+</configs>

@@ -1,0 +1,14 @@
+<configs>
+
+  <!-- Enable fuel window and requirement for actual fuel (and specific type) for the Cement Mixer -->
+  <csv xpath="/blocks/block[@name='cementMixer']/property[@class='Workstation']/property[@name='Modules']/@value" delim="," op="add">
+    fuel
+  </csv>
+
+  <!--
+  <csv xpath="/blocks/block[@name='workbench']/property[@class='Workstation']/property[@name='Modules']/@value" delim="," op="add">
+    fuel
+  </csv>
+  -->
+
+</configs>
